@@ -69,7 +69,7 @@ Not:
 - teacherly
 - startup-dashboard language
 
-## Production enforcement rules
+## Report enforcement rules
 
 - If a real limiting issue exists, do not hide it inside summary prose alone.
 - Surface **Core Weaknesses / Risk Areas** as a visible section whenever a core issue is materially affecting the read and deserves summary-level visibility beyond the category blocks.
@@ -97,9 +97,30 @@ Not:
 - **Secondary Findings** should appear only when they materially improve the report, not simply because they are writeable.
 - If no **Core Weaknesses / Risk Areas** and no **Revision Priorities** are triggered, the report should remain proportionate and should not imply a hidden major weakness through tone, caveat language, or over-insistent tradeoff framing.
 
+## Review check for Codex
+
+Before finalizing a report, confirm:
+
+1. If a real limiting issue exists, **Core Weaknesses / Risk Areas** appears as its own section.
+2. If a real action order exists, **Revision Priorities** appears as its own section.
+3. The protagonist-strength block names the character who actually organizes the early pages, not just the most vivid character on the page.
+4. No core weakness is hidden only inside summary prose.
+5. The page-10 direction judgment distinguishes correctly among:
+   - **clear and consolidated**
+   - **clear but distributed / still consolidating**
+   - **insufficiently clear**
+6. If the opening begins in a distributed way but one character clearly becomes the organizing center by page 10, protagonist-strength language reflects that rather than being omitted unnecessarily.
+7. If the opening uses retrospective, memoir-like, or formative-memory structure, confirm whether the early beats are all serving one unified narrative line before calling the direction distributed.
+8. Do not classify broad but unified life-story movement as distributed direction unless multiple active strands are genuinely competing for priority by page 10.
+9. If the opening is **clear and consolidated** and no core weakness is meaningfully triggered, the **Top-Line Summary** does not force a disguised limiting-issue frame.
+10. **Primary Findings** read as compact diagnostic headlines, not mini-analysis.
+11. **Secondary Findings** appear only when they materially improve the report.
+12. If no **Core Weaknesses / Risk Areas** and no **Revision Priorities** are triggered, the report remains proportionate and does not sound like it is hiding a major weakness.
+
 ## Execution reminder
 
 When asked to analyze a script:
+- read `AGENTS.md` first
 - use `RUNTIME_PROMPT.md` as the controlling instruction set
 - use the other system files as supporting guidance
 - produce the report and the strict audit only

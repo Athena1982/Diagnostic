@@ -1,0 +1,17 @@
+Use RUNTIME_PROMPT.md as the controlling instruction set.
+
+Use these files as supporting guidance:
+- MASTER_SPEC.md
+- VOICE_GUIDE_V2_1.md
+- BLOCK_CALIBRATION.md
+- CATEGORY_REFINEMENT.md
+- SOFT_SPOT_HARDENING.md
+
+Analyze the attached first 10 pages and generate:
+1. the full First Ten Pages Diagnostic report
+2. the strict audit
+
+Do not add doctrine, categories, or scoring math.
+Stay fully inside the Susan-only system.
+Apply the page-10 direction calibration correctly.
+Keep the report proportionate to the actual strength of the opening.

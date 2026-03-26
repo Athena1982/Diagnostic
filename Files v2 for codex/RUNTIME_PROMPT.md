@@ -74,7 +74,7 @@ Include only when at least one core issue materially limits the opening and dese
 Include only when there is a meaningful action order to recommend. Do not include if no issue clearly rises above the others.
 
 **Secondary Findings**  
-Include only when a secondary category materially improves the report.
+Include only when a secondary category is notably weak, notably strong, or materially relevant enough to add value.
 
 **Technical Flags**  
 Include only when a technical issue creates confusion, drag in the read, or extra scrutiny worth surfacing. Omit entirely if nothing is meaningfully triggered.
@@ -117,8 +117,6 @@ Treat a script as **insufficiently clear** only when the reader still lacks a us
 Treat a script as **clear but distributed / still consolidating** when the direction is present, but the opening is still spreading that direction across multiple active pressures, setup lines, or strands.
 
 Do not label a strong professional opening as simply **weak** if the real issue is distributed direction rather than lack of direction.
-
-Do not treat a life-story, retrospective, or formative-memory opening as **distributed direction** if its early beats are all clearly serving one unified narrative line.
 
 ## Concrete page behavior requirement
 
@@ -230,6 +228,12 @@ Only vary away from **“anchors the opening”** when a more concrete page-base
 
 Any variation must be followed immediately by **concrete page behavior**.
 
+Examples of acceptable stronger variations:
+- **The protagonist anchors the opening by arriving under immediate pressure.**
+- **The opening locks onto the protagonist quickly and stays there through the early scene sequence.**
+- **The early pages organize themselves around the protagonist’s problem.**
+- **The lead becomes the main point of reader attention in the early pages because the opening keeps returning to the same active pressure point.**
+
 Disallow:
 - **“gives the opening a center”**
 - **“has a strong presence”**
@@ -237,6 +241,11 @@ Disallow:
 - **“works well as a lead”**
 
 when those phrases appear without concrete page behavior.
+
+A protagonist-strength block must:
+1. state that the protagonist **anchors the opening** or use a clearly stronger page-based equivalent
+2. identify the page behavior that creates that effect
+3. explain why that helps the read
 
 ## Rules for revision priorities
 
@@ -252,6 +261,11 @@ They must:
 - be action-oriented
 - not restate the diagnosis
 - not become mini-essays
+
+Preferred form:
+- Clarify X by page 10.
+- Tighten scenes that are carrying X more than Y.
+- Reduce visible exposition where dialogue is doing too much explanatory work.
 
 ## Rules for secondary findings
 

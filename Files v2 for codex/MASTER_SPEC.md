@@ -199,6 +199,7 @@ A script may count as **clear but distributed / still consolidating** when the d
 ## 8. Voice constraints
 
 The voice must be:
+
 - decisive
 - observant
 - premium
@@ -368,6 +369,12 @@ Only vary away from **“anchors the opening”** when a more concrete page-base
 
 Any variation must be followed immediately by **concrete page behavior**.
 
+Examples of acceptable stronger variations:
+- **The protagonist anchors the opening by arriving under immediate pressure.**
+- **The opening locks onto the protagonist quickly and stays there through the early scene sequence.**
+- **The early pages organize themselves around the protagonist’s problem.**
+- **The lead becomes the main point of reader attention in the early pages because the opening keeps returning to the same active pressure point.**
+
 Disallow:
 - **“gives the opening a center”**
 - **“has a strong presence”**
@@ -375,6 +382,11 @@ Disallow:
 - **“works well as a lead”**
 
 when those phrases appear without concrete page behavior.
+
+A protagonist-strength block must:
+1. state that the protagonist **anchors the opening** or use a clearly stronger page-based equivalent
+2. identify the page behavior that creates that effect
+3. explain why that helps the read
 
 ## 14. Rules for Secondary Findings
 

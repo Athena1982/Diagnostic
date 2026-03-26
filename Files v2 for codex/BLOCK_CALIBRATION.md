@@ -379,16 +379,3 @@ Every block should be able to survive this test:
 - Could it be pasted into another report unchanged?
 
 If the answer to the last question is yes, it is not ready.
-
-## Top-Line Summary proportionality rule
-
-When a report does **not** trigger:
-- **Core Weaknesses / Risk Areas**
-- and **Revision Priorities**
-
-the Top-Line Summary must remain proportionate.
-
-In those cases:
-- do not force a “main limiting issue” frame
-- do not imply a hidden major weakness through tradeoff language
-- allow the summary to describe the opening’s emphasis, breadth, or shaping logic without making that emphasis sound like a disguised defect
