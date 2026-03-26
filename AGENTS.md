@@ -83,6 +83,11 @@ Not:
 - If no character anchors the opening from page 1, assign protagonist-strength to the character who becomes the organizing center once the opening’s main active line takes over, **if that role is clear by page 10**.
 - Do not omit protagonist-strength entirely just because the opening begins in a distributed way, if one character clearly becomes the organizing center by page 10.
 
+- Do not treat a life-story, retrospective, or formative-memory opening as **distributed direction** if its early beats are all clearly serving one unified narrative line.
+- Broad formative sequencing is not the same as competing story strands.
+- A page-10 direction judgment of **clear and consolidated** is still appropriate when multiple early beats all serve one clearly unified story movement.
+- Use **clear but distributed / still consolidating** only when the opening is asking the reader to hold multiple active narrative strands whose hierarchy is not yet clear.
+
 ## Review check for Codex
 
 Before finalizing a report, confirm:
@@ -96,6 +101,8 @@ Before finalizing a report, confirm:
    - **clear but distributed / still consolidating**
    - **insufficiently clear**
 6. If the opening begins in a distributed way but one character clearly becomes the organizing center by page 10, protagonist-strength language reflects that rather than being omitted unnecessarily.
+7. If the opening uses retrospective, memoir-like, or formative-memory structure, confirm whether the early beats are all serving one unified narrative line before calling the direction distributed.
+8. Do not classify broad but unified life-story movement as distributed direction unless multiple active strands are genuinely competing for priority by page 10.
 
 ## Execution reminder
 
