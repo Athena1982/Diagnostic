@@ -2,7 +2,7 @@ function RevisionPriorities({ priorities }) {
   return (
     <section
       id="revision-priorities"
-      className="report-section"
+      className="report-section report-section--priorities"
       aria-labelledby="revision-priorities-title"
     >
       <div className="section-heading">

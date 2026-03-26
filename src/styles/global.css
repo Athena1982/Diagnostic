@@ -1,23 +1,26 @@
 :root {
   color-scheme: light;
   font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  background: #f3eee6;
-  color: #22201d;
+  background: #edf0f2;
+  color: #171c23;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --paper: #f6f1e8;
-  --paper-strong: #efe7db;
-  --panel: rgba(255, 252, 247, 0.9);
-  --panel-strong: #fbf8f2;
-  --text: #22201d;
-  --muted: #625a50;
-  --border: rgba(43, 39, 35, 0.14);
-  --border-strong: rgba(43, 39, 35, 0.2);
-  --accent: #7d6c57;
-  --accent-soft: rgba(125, 108, 87, 0.12);
-  --accent-strong: #5f5242;
+  --paper: #f4f5f6;
+  --paper-strong: #eaedf0;
+  --panel: rgba(251, 252, 253, 0.88);
+  --panel-strong: rgba(246, 248, 250, 0.96);
+  --text: #171c23;
+  --muted: #59616d;
+  --muted-soft: #6f7783;
+  --border: rgba(34, 42, 53, 0.14);
+  --border-strong: rgba(34, 42, 53, 0.24);
+  --accent: #647286;
+  --accent-soft: rgba(100, 114, 134, 0.1);
+  --accent-strong: #4a586d;
+  --accent-line: rgba(92, 109, 131, 0.26);
+  --shadow-soft: 0 18px 40px rgba(28, 36, 48, 0.04);
 }
 
 * {
@@ -33,8 +36,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.48), transparent 28%),
-    linear-gradient(180deg, #f2ede3 0%, #f6f1e8 35%, #f1ebe2 100%);
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.6), transparent 26%),
+    linear-gradient(180deg, #ebeff2 0%, #f3f5f7 38%, #eceff2 100%);
   color: var(--text);
 }
 
@@ -44,10 +47,10 @@ body::before {
   inset: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.22) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.14) 1px, transparent 1px);
+    linear-gradient(rgba(255, 255, 255, 0.18) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
   background-size: 100% 100%, 48px 48px;
-  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.22), transparent 82%);
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.16), transparent 82%);
 }
 
 a {

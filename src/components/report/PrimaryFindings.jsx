@@ -2,7 +2,7 @@ function PrimaryFindings({ findings }) {
   return (
     <section
       id="primary-findings"
-      className="report-section"
+      className="report-section report-section--findings"
       aria-labelledby="primary-findings-title"
     >
       <div className="section-heading">

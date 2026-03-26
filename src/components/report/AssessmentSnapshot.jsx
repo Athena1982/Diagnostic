@@ -1,6 +1,9 @@
 function AssessmentSnapshot({ snapshot }) {
   return (
-    <section className="side-panel" aria-labelledby="assessment-snapshot-title">
+    <section
+      className="side-panel side-panel--snapshot"
+      aria-labelledby="assessment-snapshot-title"
+    >
       <div className="side-panel__header">
         <p className="side-panel__eyebrow">Assessment snapshot</p>
         <h2 id="assessment-snapshot-title">At a glance</h2>

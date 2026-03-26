@@ -19,7 +19,7 @@ function CategoryAssessment({ categories }) {
   return (
     <section
       id="category-assessment"
-      className="report-section"
+      className="report-section report-section--assessment"
       aria-labelledby="category-assessment-title"
     >
       <div className="section-heading">

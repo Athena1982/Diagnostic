@@ -2,7 +2,7 @@ function CoreWeaknesses({ weaknesses }) {
   return (
     <section
       id="core-weaknesses"
-      className="report-section"
+      className="report-section report-section--rows"
       aria-labelledby="core-weaknesses-title"
     >
       <div className="section-heading">

@@ -1,9 +1,12 @@
 function QuietActions({ isSaved, onExportPdf, onPrint, onSave }) {
   return (
-    <section className="side-panel" aria-labelledby="quiet-actions-title">
+    <section
+      className="side-panel side-panel--actions"
+      aria-labelledby="quiet-actions-title"
+    >
       <div className="side-panel__header">
-        <p className="side-panel__eyebrow">Quiet actions</p>
-        <h2 id="quiet-actions-title">Document actions</h2>
+        <p className="side-panel__eyebrow">Report actions</p>
+        <h2 id="quiet-actions-title">Report actions</h2>
       </div>
 
       <div className="quiet-actions">

@@ -70,19 +70,6 @@ function FirstTenPagesDiagnosticReportPage({ canonicalPath, isCanonicalPath }) {
         />
 
         <div className="report-layout">
-          <aside className="report-rail">
-            <div className="rail-stack">
-              <AssessmentSnapshot snapshot={reportData.snapshot} />
-              <SectionJumpNav sections={jumpSections} />
-              <QuietActions
-                isSaved={isSaved}
-                onExportPdf={handleExportPdf}
-                onPrint={handlePrint}
-                onSave={handleSave}
-              />
-            </div>
-          </aside>
-
           <main className="report-main">
             <TopLineSummary summary={reportData.topLineSummary} />
             <NotableStrengths strengths={reportData.notableStrengths} />
@@ -108,6 +95,19 @@ function FirstTenPagesDiagnosticReportPage({ canonicalPath, isCanonicalPath }) {
 
             <NextStepGuidance guidance={reportData.nextStepGuidance} />
           </main>
+
+          <aside className="report-rail">
+            <div className="rail-stack">
+              <AssessmentSnapshot snapshot={reportData.snapshot} />
+              <SectionJumpNav sections={jumpSections} />
+              <QuietActions
+                isSaved={isSaved}
+                onExportPdf={handleExportPdf}
+                onPrint={handlePrint}
+                onSave={handleSave}
+              />
+            </div>
+          </aside>
         </div>
       </div>
     </div>

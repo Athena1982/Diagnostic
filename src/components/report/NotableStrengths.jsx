@@ -2,7 +2,7 @@ function NotableStrengths({ strengths }) {
   return (
     <section
       id="notable-strengths"
-      className="report-section"
+      className="report-section report-section--strengths"
       aria-labelledby="notable-strengths-title"
     >
       <div className="section-heading">

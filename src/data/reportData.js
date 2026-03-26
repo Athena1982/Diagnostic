@@ -1,6 +1,6 @@
 export const reportData = {
   productName: "First Ten Pages Diagnostic",
-  provider: "Screenwriter.com",
+  provider: "Screenwriters Online",
   canonicalPath: "/reports/first-ten-pages-diagnostic",
   screenplayTitle: "Glass Harbor",
   writerName: "Mara Ellison",

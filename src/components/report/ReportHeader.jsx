@@ -27,6 +27,7 @@ function ReportHeader({ data, canonicalPath, isCanonicalPath }) {
       </div>
 
       <div className="report-header__footnote">
+        <span>Prepared for early-page evaluation only</span>
         <span>{data.readTime}</span>
         <span>{canonicalPath}</span>
         {!isCanonicalPath ? <span>Rendered outside canonical route</span> : null}

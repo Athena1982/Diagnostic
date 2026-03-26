@@ -29,7 +29,11 @@ function CategoryCard({ category, defaultOpen, isMobile }) {
           <p>{category.judgment}</p>
         </div>
         <div className="category-card__meta">
-          <span className="state-pill">{category.state}</span>
+          <span
+            className={`state-pill${category.emphasis ? " state-pill--emphasis" : ""}`}
+          >
+            {category.state}
+          </span>
           <span className="category-card__toggle" aria-hidden="true">
             {isMobile ? (isOpen ? "−" : "+") : "Section"}
           </span>
