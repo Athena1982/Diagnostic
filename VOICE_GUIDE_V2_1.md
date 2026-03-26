@@ -113,7 +113,7 @@ Do not collapse these into one interchangeable term.
 These are preferred sentence patterns, not mandatory templates. Rotate them.
 
 ### Top-Line Summary
-Use one central contrast only.
+Use one central contrast only when a real contrast is materially present.
 
 Preferred patterns:
 - **These pages have X, but they do not yet have enough Y.**
@@ -121,11 +121,18 @@ Preferred patterns:
 - **The opening is strong in X and Y; the main limiting issue is Z.**
 - **The direction is present, but still distributed across several active pressures.**
 
+For strong openings with no meaningfully triggered core weakness, also use:
+- **The opening is strong in X, Y, and Z, and it already knows what kind of story it is telling.**
+- **These pages are clear and consolidated; their emphasis is on X rather than on a narrow immediate tactical line.**
+- **The opening is broad in scope but unified in direction.**
+- **The pages are carrying the read through X, Y, and Z; the opening’s emphasis is shaping rather than limiting the read.**
+
 Use sparingly:
 - **This is not an absence of X so much as a case of Y.**
 - **The opening is not unclear so much as layered.**
+- **The main tradeoff is...**
 
-These can be useful, but they can also start to sound system-heavy if repeated too often.
+Do not force “tradeoff” or “limiting issue” language when no core weakness section is triggered.
 
 ### Strengths
 Preferred patterns:
@@ -162,6 +169,30 @@ Preferred patterns:
 - **Reduce or compress Z that delays story direction.**
 - **Tighten scenes that are carrying X more than Y.**
 - **Preserve X, but make Y the clearer priority.**
+
+### Primary Findings
+Primary Findings must be scan-first, compact, and headline-like.
+
+Preferred patterns:
+- **Reader pull — Strong**
+- **Page-10 direction — Clear and consolidated**
+- **Page-10 direction — Clear but distributed / still consolidating**
+- **Page-10 direction — Insufficiently clear**
+- **Character presence — Strong**
+- **World / setting — Strong**
+- **Scene utility — Mixed**
+
+Avoid:
+- sentence-like commentary
+- interpretive mini-analysis
+- summary prose disguised as findings
+
+Do not write Primary Findings as:
+- **The opening is stronger in X than in Y**
+- **The main limiting issue is...**
+- **The pages are carrying the read through...**
+
+Those belong elsewhere.
 
 ---
 

@@ -135,13 +135,15 @@ Do **not** show this section when:
 ### Secondary Findings
 Show this section only when:
 - a secondary category adds something materially useful to the reader’s understanding of the opening
-- a secondary issue or strength is notable enough to deserve report space
-- the finding adds value not already carried well enough by the core report
+- the finding is notable enough that omitting it would leave out a meaningful part of the diagnosis
+- the section adds value not already carried clearly enough by the core report
 
 Do **not** show this section when:
-- secondary categories are merely present
-- the insight is too minor
-- the section would feel padded or repetitive
+- the finding is merely nice to mention
+- the insight is already obvious from the core report
+- the section would function mainly as polish, flourish, or extra commentary
+- the report is already strong and complete without it
+- the section would make the report feel more written than more useful
 
 ### Technical Flags
 Show this section only when:
@@ -458,10 +460,13 @@ Insert these only when meaningfully triggered, in their defined positions:
 ### Formatting rules
 - Use section headers clearly
 - Keep **Primary Findings** compressed
+- Keep **Primary Findings** scan-first, headline-like, and non-explanatory
+- Do not let **Primary Findings** turn into sentence-level mini-analysis
 - Keep conditional sections subordinate to the core report
 - Keep technical material visually and rhetorically subordinate
 - Do not make all sections equally long
 - Keep the report readable and premium
+- If no core weakness section and no revision-priorities section are triggered, maintain proportionality: the report should not imply a hidden major weakness through tone alone
 
 ## 17. Step-by-step generation sequence
 
@@ -484,10 +489,14 @@ Analyze:
 ### Step 3: Identify the central diagnosis
 Determine:
 - what is carrying the read
-- what is limiting the read
-- what the main contrast is
+- what is limiting the read, if anything materially is
+- what the main contrast is, if a real contrast exists
 
 This becomes the basis of the **Top-Line Summary**.
+
+If the opening is **clear and consolidated** and no core weakness is meaningfully triggered:
+- do not force a “main limiting issue” frame
+- allow the summary to describe the opening’s emphasis, shape, or dominant strengths without implying a disguised weakness
 
 ### Step 4: Select notable strengths
 Choose only the few strongest positives that are materially helping the read.
@@ -551,11 +560,15 @@ Before finalizing the report, the model must confirm:
 15. Secondary Findings are clearly subordinate and non-padded.
 16. The report does not sound like workshop feedback or general screenplay advice.
 17. The report could not be pasted unchanged onto a different script without sounding wrong.
-18. If a protagonist-strength block appears, it uses **“anchors the opening”** or a clearly stronger page-based alternative.
-19. Any variation away from **“anchors the opening”** is followed immediately by concrete page behavior.
-20. No protagonist-strength block uses **“gives the opening a center”** or generic protagonist praise without page behavior.
-21. The page-10 direction judgment does **not** treat “not yet fully consolidated” as an automatic failure.
-22. If the opening has usable directional promise by page 10 but is still spread across multiple active pressures, the report uses **clear but distributed / still consolidating** language rather than a blunt **weak** label.
+18. The Top-Line Summary does not force a “main limiting issue” frame when the opening is **clear and consolidated** and no core weakness is meaningfully triggered.
+19. If no **Core Weaknesses / Risk Areas** and no **Revision Priorities** are triggered, the report does not imply a hidden major weakness through tone, framing, or repeated caveats.
+20. If a protagonist-strength block appears, it uses **“anchors the opening”** or a clearly stronger page-based alternative.
+21. Any variation away from **“anchors the opening”** is followed immediately by concrete page behavior.
+22. No protagonist-strength block uses **“gives the opening a center”** or generic protagonist praise without page behavior.
+23. The page-10 direction judgment does **not** treat “not yet fully consolidated” as an automatic failure.
+24. If the opening has usable directional promise by page 10 but is still spread across multiple active pressures, the report uses **clear but distributed / still consolidating** language rather than a blunt **weak** label.
+25. **Primary Findings** remain compact, headline-like, and scan-first rather than explanatory prose.
+26. **Secondary Findings** appear only when they materially improve the report rather than simply adding polish or nuance.
 
 ## 19. Failure checklist
 

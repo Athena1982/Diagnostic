@@ -279,8 +279,13 @@ They must:
 - remain clearly subordinate to the core analysis
 - be shorter than the main category breakdown
 - add real value rather than padding
+- materially improve the reader’s understanding of the opening
 
-Do not include this section if it has nothing meaningful to add.
+Do not include this section if:
+- the point is merely nice to mention
+- the core report already carries the insight clearly enough
+- the report is already strong and complete without it
+- the section would make the report feel more written than more useful
 
 ## Rules for technical flags
 
@@ -322,29 +327,36 @@ Insert these only when meaningfully triggered, in these positions:
 ### Formatting rules
 - Use clear section headers
 - Keep **Primary Findings** compressed and headline-like
+- Keep **Primary Findings** scan-first rather than explanatory
+- Do not let **Primary Findings** become mini-analysis sentences
 - Keep conditional sections subordinate to the core report
 - Keep technical material visually and rhetorically subordinate
 - Do not make all sections equally long
 - Keep the report readable, premium, and concise
+- If no core weakness section and no revision-priorities section are triggered, do not write the report as if it is hiding a major weakness
 
 ## Short preflight check before finalizing
 
 Before finalizing, confirm:
 1. The report stays inside the Susan-only system.
 2. No new doctrine, categories, or scoring math were introduced.
-3. The Top-Line Summary makes **one central contrast only**.
-4. Every category block includes:
+3. The Top-Line Summary makes **one central contrast only** when a real contrast is materially present.
+4. If the opening is **clear and consolidated** and no core weakness is meaningfully triggered, the Top-Line Summary does not force a “main limiting issue” frame.
+5. Every category block includes:
    - one clear judgment
    - at least one concrete page behavior
    - one effect on the read by page 10
-5. No block uses banned generic coverage language.
-6. No block uses banned pseudo-specificity.
-7. Conditional sections appear only when meaningfully triggered.
-8. Evidence Notes appear only inside category blocks and only when justified.
-9. The report does not sound like workshop feedback or generic coverage.
-10. The report could not be pasted unchanged onto a different script without sounding wrong.
-11. If a protagonist-strength block appears, it uses **“anchors the opening”** or a clearly stronger page-based alternative.
-12. Any variation away from **“anchors the opening”** is followed immediately by concrete page behavior.
-13. No protagonist-strength block uses **“gives the opening a center”** or generic protagonist praise without page behavior.
-14. The page-10 direction judgment does **not** confuse distributed direction with true failure.
-15. If direction is present but still spread across multiple active strands, the wording reflects **clear but distributed / still consolidating** rather than a blunt **weak** label.
+6. No block uses banned generic coverage language.
+7. No block uses banned pseudo-specificity.
+8. Conditional sections appear only when meaningfully triggered.
+9. Evidence Notes appear only inside category blocks and only when justified.
+10. The report does not sound like workshop feedback or generic coverage.
+11. The report could not be pasted unchanged onto a different script without sounding wrong.
+12. If a protagonist-strength block appears, it uses **“anchors the opening”** or a clearly stronger page-based alternative.
+13. Any variation away from **“anchors the opening”** is followed immediately by concrete page behavior.
+14. No protagonist-strength block uses **“gives the opening a center”** or generic protagonist praise without page behavior.
+15. The page-10 direction judgment does **not** confuse distributed direction with true failure.
+16. If direction is present but still spread across multiple active strands, the wording reflects **clear but distributed / still consolidating** rather than a blunt **weak** label.
+17. **Primary Findings** are compact, headline-like, and scan-first rather than sentence-like commentary.
+18. **Secondary Findings** appear only when they materially improve the report.
+19. If no **Core Weaknesses / Risk Areas** and no **Revision Priorities** are triggered, the report does not imply a hidden major weakness through tone or framing.

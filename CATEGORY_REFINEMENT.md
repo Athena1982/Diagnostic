@@ -204,3 +204,16 @@ Do not begin consecutive blocks with the same formula. Rotate among:
   “What works here is X; what remains weaker is Y.”
 
 Repeat the framework, not the sentence shape.
+
+### Additional restraint rule for strong openings
+
+If a report omits both:
+- **Core Weaknesses / Risk Areas**
+- **Revision Priorities**
+
+then avoid writing the rest of the report as though a hidden problem still needs to be smuggled in.
+
+In strong-opening cases:
+- describe emphasis, breadth, or shaping logic without reflexively turning them into “tradeoffs”
+- use Secondary Findings only if they materially improve the report
+- keep Primary Findings compact and non-essayistic

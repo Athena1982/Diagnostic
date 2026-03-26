@@ -76,6 +76,10 @@ Not:
 - Surface **Revision Priorities** as a visible section whenever there is a meaningful action order to recommend.
 - Do not compress a meaningfully triggered weakness or action sequence into only **Top-Line Summary** or **Primary Findings**.
 
+- If an opening is **clear and consolidated** and no core weakness is meaningfully triggered, do not force a “main limiting issue” frame into the **Top-Line Summary**.
+- In strong openings, the summary may describe the opening’s emphasis, shape, or dominant strengths without implying a disguised weakness.
+- Do not make a strong opening sound as if it secretly has a major problem merely because it is broad, reflective, memoir-like, or emphasis-driven.
+
 - Protagonist-strength language must identify the character who actually organizes the early pages.
 - Do not assign the protagonist-strength block to the most vivid or charismatic character unless that character truly organizes the early page sequence.
 - Use **anchors the opening** only for the character the opening keeps structurally returning to as the active center of attention.
@@ -87,6 +91,11 @@ Not:
 - Broad formative sequencing is not the same as competing story strands.
 - A page-10 direction judgment of **clear and consolidated** is still appropriate when multiple early beats all serve one clearly unified story movement.
 - Use **clear but distributed / still consolidating** only when the opening is asking the reader to hold multiple active narrative strands whose hierarchy is not yet clear.
+
+- **Primary Findings** must stay compact, headline-like, and scan-first.
+- Do not let **Primary Findings** become sentence-level mini-analysis.
+- **Secondary Findings** should appear only when they materially improve the report, not simply because they are writeable.
+- If no **Core Weaknesses / Risk Areas** and no **Revision Priorities** are triggered, the report should remain proportionate and should not imply a hidden major weakness through tone, caveat language, or over-insistent tradeoff framing.
 
 ## Review check for Codex
 
@@ -103,6 +112,10 @@ Before finalizing a report, confirm:
 6. If the opening begins in a distributed way but one character clearly becomes the organizing center by page 10, protagonist-strength language reflects that rather than being omitted unnecessarily.
 7. If the opening uses retrospective, memoir-like, or formative-memory structure, confirm whether the early beats are all serving one unified narrative line before calling the direction distributed.
 8. Do not classify broad but unified life-story movement as distributed direction unless multiple active strands are genuinely competing for priority by page 10.
+9. If the opening is **clear and consolidated** and no core weakness is meaningfully triggered, the **Top-Line Summary** does not force a disguised limiting-issue frame.
+10. **Primary Findings** read as compact diagnostic headlines, not mini-analysis.
+11. **Secondary Findings** appear only when they materially improve the report.
+12. If no **Core Weaknesses / Risk Areas** and no **Revision Priorities** are triggered, the report remains proportionate and does not sound like it is hiding a major weakness.
 
 ## Execution reminder
 
