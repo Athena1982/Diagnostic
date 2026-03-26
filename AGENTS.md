@@ -80,6 +80,8 @@ Not:
 - Do not assign the protagonist-strength block to the most vivid or charismatic character unless that character truly organizes the early page sequence.
 - Use **anchors the opening** only for the character the opening keeps structurally returning to as the active center of attention.
 - If a vivid supporting character is more memorable than the true organizing character, describe that as a separate strength rather than misassigning the protagonist-strength block.
+- If no character anchors the opening from page 1, assign protagonist-strength to the character who becomes the organizing center once the opening’s main active line takes over, **if that role is clear by page 10**.
+- Do not omit protagonist-strength entirely just because the opening begins in a distributed way, if one character clearly becomes the organizing center by page 10.
 
 ## Review check for Codex
 
@@ -93,6 +95,7 @@ Before finalizing a report, confirm:
    - **clear and consolidated**
    - **clear but distributed / still consolidating**
    - **insufficiently clear**
+6. If the opening begins in a distributed way but one character clearly becomes the organizing center by page 10, protagonist-strength language reflects that rather than being omitted unnecessarily.
 
 ## Execution reminder
 
