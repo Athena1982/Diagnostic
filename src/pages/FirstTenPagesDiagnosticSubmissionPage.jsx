@@ -38,14 +38,17 @@ const methodologyItems = [
 
 const nextStepItems = [
   "Submit the title, writer, format, genre, and a single PDF containing the first ten screenplay pages.",
-  "The material is then positioned for a first-ten-pages-only read using the same diagnostic framework reflected on the report screen.",
+  "The material then moves into a dedicated in-progress screen that frames the diagnostic as a structured first-ten-pages report in preparation.",
   "This UI prototype records the setup locally only. Live file handling and delivery workflow are intentionally not connected in this pass.",
 ];
 
-function FirstTenPagesDiagnosticSubmissionPage({ canonicalPath }) {
+function FirstTenPagesDiagnosticSubmissionPage({
+  canonicalPath,
+  onNavigate,
+  processingPath,
+}) {
   const fileInputRef = useRef(null);
   const [selectedFile, setSelectedFile] = useState(null);
-  const [hasPreparedSubmission, setHasPreparedSubmission] = useState(false);
   const [formValues, setFormValues] = useState({
     scriptTitle: "",
     writerName: "",
@@ -73,7 +76,6 @@ function FirstTenPagesDiagnosticSubmissionPage({ canonicalPath }) {
   const handleFileSelect = ({ target }) => {
     const nextFile = target.files?.[0] ?? null;
     setSelectedFile(nextFile);
-    setHasPreparedSubmission(false);
   };
 
   const handlePrepareSubmission = (event) => {
@@ -83,7 +85,21 @@ function FirstTenPagesDiagnosticSubmissionPage({ canonicalPath }) {
       return;
     }
 
-    setHasPreparedSubmission(true);
+    const submissionRecord = {
+      ...formValues,
+      fileName: selectedFile?.name ?? "",
+      fileSizeKb: selectedFile
+        ? Math.max(selectedFile.size / 1024, 1).toFixed(0)
+        : null,
+      receivedAt: new Date().toISOString(),
+    };
+
+    window.localStorage.setItem(
+      "ftpd-submission-record",
+      JSON.stringify(submissionRecord),
+    );
+
+    onNavigate(processingPath);
   };
 
   const openFilePicker = () => {
@@ -308,22 +324,11 @@ function FirstTenPagesDiagnosticSubmissionPage({ canonicalPath }) {
                     </button>
                     <p className="submission-support">
                       This pass is UI-only. Preparing the submission records the
-                      setup state locally and does not transmit files.
+                      setup state locally and moves into the in-progress screen
+                      without transmitting files.
                     </p>
                   </div>
                 </div>
-
-                {hasPreparedSubmission ? (
-                  <div className="guidance-card submission-confirmation" aria-live="polite">
-                    <h3>Submission package prepared</h3>
-                    <p>
-                      The title, writer, format, genre, and first-ten-pages PDF
-                      have been captured for the prototype flow. Backend intake,
-                      confirmation delivery, and report fulfillment remain
-                      intentionally out of scope for this pass.
-                    </p>
-                  </div>
-                ) : null}
               </form>
             </section>
 

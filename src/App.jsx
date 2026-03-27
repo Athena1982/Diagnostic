@@ -1,12 +1,18 @@
 import { useEffect, useState } from "react";
+import FirstTenPagesDiagnosticProcessingPage from "./pages/FirstTenPagesDiagnosticProcessingPage";
 import FirstTenPagesDiagnosticReportPage from "./pages/FirstTenPagesDiagnosticReportPage";
 import FirstTenPagesDiagnosticSubmissionPage from "./pages/FirstTenPagesDiagnosticSubmissionPage";
 
 const REPORT_PATH = "/reports/first-ten-pages-diagnostic";
 const SUBMISSION_PATH = "/submit/first-ten-pages-diagnostic";
+const PROCESSING_PATH = "/submit/first-ten-pages-diagnostic/processing";
 
 function normalizePath(pathname) {
-  if (pathname === REPORT_PATH || pathname === SUBMISSION_PATH) {
+  if (
+    pathname === REPORT_PATH ||
+    pathname === SUBMISSION_PATH ||
+    pathname === PROCESSING_PATH
+  ) {
     return pathname;
   }
 
@@ -15,6 +21,13 @@ function normalizePath(pathname) {
 
 function App() {
   const [path, setPath] = useState(() => normalizePath(window.location.pathname));
+
+  const navigate = (nextPath) => {
+    const normalizedPath = normalizePath(nextPath);
+    window.history.pushState({}, "", normalizedPath);
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    setPath(normalizedPath);
+  };
 
   useEffect(() => {
     const syncPath = () => {
@@ -44,9 +57,21 @@ function App() {
     );
   }
 
+  if (path === PROCESSING_PATH) {
+    return (
+      <FirstTenPagesDiagnosticProcessingPage
+        canonicalPath={PROCESSING_PATH}
+        onNavigate={navigate}
+        submissionPath={SUBMISSION_PATH}
+      />
+    );
+  }
+
   return (
     <FirstTenPagesDiagnosticSubmissionPage
       canonicalPath={SUBMISSION_PATH}
+      onNavigate={navigate}
+      processingPath={PROCESSING_PATH}
     />
   );
 }
