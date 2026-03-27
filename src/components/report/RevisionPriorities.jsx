@@ -11,8 +11,13 @@ function RevisionPriorities({ priorities }) {
       </div>
 
       <ol className="ordered-list">
-        {priorities.map((priority) => (
-          <li key={priority}>{priority}</li>
+        {priorities.map((priority, index) => (
+          <li key={priority}>
+            <span className="ordered-list__index" aria-hidden="true">
+              {String(index + 1).padStart(2, "0")}
+            </span>
+            <p>{priority}</p>
+          </li>
         ))}
       </ol>
     </section>

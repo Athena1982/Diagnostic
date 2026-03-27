@@ -11,8 +11,13 @@ function PrimaryFindings({ findings }) {
       </div>
 
       <ul className="headline-list">
-        {findings.map((finding) => (
-          <li key={finding}>{finding}</li>
+        {findings.map((finding, index) => (
+          <li key={finding}>
+            <span className="headline-list__index" aria-hidden="true">
+              {String(index + 1).padStart(2, "0")}
+            </span>
+            <p>{finding}</p>
+          </li>
         ))}
       </ul>
     </section>

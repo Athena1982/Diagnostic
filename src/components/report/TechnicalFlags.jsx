@@ -12,7 +12,7 @@ function TechnicalFlags({ flags }) {
 
       <div className="flag-stack">
         {flags.map((flag) => (
-          <article key={flag.title} className="subtle-card">
+          <article key={flag.title} className="flag-row">
             <h3>{flag.title}</h3>
             <p>{flag.detail}</p>
           </article>
