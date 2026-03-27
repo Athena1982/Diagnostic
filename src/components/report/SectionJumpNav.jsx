@@ -1,9 +1,14 @@
-function SectionJumpNav({ sections }) {
+function SectionJumpNav({
+  sections,
+  eyebrow = "Report navigation",
+  title = "Jump to",
+  titleId = "jump-nav-title",
+}) {
   return (
-    <nav className="side-panel side-panel--nav" aria-labelledby="jump-nav-title">
+    <nav className="side-panel side-panel--nav" aria-labelledby={titleId}>
       <div className="side-panel__header">
-        <p className="side-panel__eyebrow">Report navigation</p>
-        <h2 id="jump-nav-title">Jump to</h2>
+        <p className="side-panel__eyebrow">{eyebrow}</p>
+        <h2 id={titleId}>{title}</h2>
       </div>
 
       <ul className="jump-nav">

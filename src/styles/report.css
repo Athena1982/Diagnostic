@@ -706,6 +706,23 @@
   align-content: start;
 }
 
+.methodology-header h1 {
+  max-width: 7.4ch;
+  font-size: clamp(3.4rem, 4.9vw, 5.6rem);
+}
+
+.methodology-header__product {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.methodology-header__meta {
+  align-content: start;
+}
+
 .submission-hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.95fr);
@@ -729,6 +746,64 @@
 .submission-boundary-card {
   padding: 16px 18px;
   background: rgba(246, 249, 251, 0.66);
+}
+
+.methodology-summary-grid,
+.methodology-boundary-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.95fr);
+  gap: 24px 28px;
+  align-items: start;
+}
+
+.methodology-summary-copy {
+  max-width: 42rem;
+}
+
+.methodology-note-card,
+.methodology-boundary-card,
+.methodology-signal-card,
+.methodology-posture-card {
+  height: 100%;
+}
+
+.methodology-section-copy {
+  max-width: 52rem;
+}
+
+.methodology-comparison-section .methodology-section-copy {
+  display: grid;
+  gap: 16px;
+}
+
+.methodology-signal-grid,
+.methodology-posture-grid {
+  display: grid;
+  gap: 18px 20px;
+  margin-top: 24px;
+}
+
+.methodology-signal-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.methodology-posture-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.methodology-signal-card .subordinate-list,
+.methodology-boundary-card .subordinate-list {
+  margin-top: 14px;
+}
+
+.methodology-structure-list {
+  margin-top: 24px;
+}
+
+.methodology-action-section {
+  background:
+    linear-gradient(180deg, rgba(249, 251, 252, 0.98), rgba(245, 248, 250, 0.92)),
+    var(--panel);
 }
 
 .processing-status-grid,
@@ -1160,7 +1235,9 @@
   }
 
   .processing-status-grid,
-  .processing-detail-grid {
+  .processing-detail-grid,
+  .methodology-summary-grid,
+  .methodology-boundary-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1220,7 +1297,9 @@
   }
 
   .submission-hero-grid,
-  .submission-form-grid {
+  .submission-form-grid,
+  .methodology-signal-grid,
+  .methodology-posture-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1271,6 +1350,10 @@
   }
 
   .processing-header h1 {
+    font-size: clamp(2.2rem, 10vw, 3.1rem);
+  }
+
+  .methodology-header h1 {
     font-size: clamp(2.2rem, 10vw, 3.1rem);
   }
 

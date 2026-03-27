@@ -1,14 +1,17 @@
 import { useEffect, useState } from "react";
+import FirstTenPagesDiagnosticMethodologyPage from "./pages/FirstTenPagesDiagnosticMethodologyPage";
 import FirstTenPagesDiagnosticProcessingPage from "./pages/FirstTenPagesDiagnosticProcessingPage";
 import FirstTenPagesDiagnosticReportPage from "./pages/FirstTenPagesDiagnosticReportPage";
 import FirstTenPagesDiagnosticSubmissionPage from "./pages/FirstTenPagesDiagnosticSubmissionPage";
 
+const METHODOLOGY_PATH = "/first-ten-pages-diagnostic/methodology";
 const REPORT_PATH = "/reports/first-ten-pages-diagnostic";
 const SUBMISSION_PATH = "/submit/first-ten-pages-diagnostic";
 const PROCESSING_PATH = "/submit/first-ten-pages-diagnostic/processing";
 
 function normalizePath(pathname) {
   if (
+    pathname === METHODOLOGY_PATH ||
     pathname === REPORT_PATH ||
     pathname === SUBMISSION_PATH ||
     pathname === PROCESSING_PATH
@@ -47,6 +50,17 @@ function App() {
       window.removeEventListener("popstate", syncPath);
     };
   }, []);
+
+  if (path === METHODOLOGY_PATH) {
+    return (
+      <FirstTenPagesDiagnosticMethodologyPage
+        canonicalPath={METHODOLOGY_PATH}
+        onNavigate={navigate}
+        reportPath={REPORT_PATH}
+        submissionPath={SUBMISSION_PATH}
+      />
+    );
+  }
 
   if (path === REPORT_PATH) {
     return (
